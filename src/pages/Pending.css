@@ -1,0 +1,25 @@
+.pen-main{
+    width: 100%;
+    height:100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.pen-box{
+    width:300px;
+    height:80px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px lightgrey,0 0 25px lightgrey;
+    display: flex;
+    gap:10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+}
+
